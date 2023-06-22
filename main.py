@@ -4,7 +4,7 @@ import sqlite3
 from telebot import types 
 
 
-bot = telebot.TeleBot('5902650564:AAH1BHFPzGXB2dn_bYtRcImCIsiNzWdOlLI')
+bot = telebot.TeleBot('Токен Бота')
 base = sqlite3.connect('base.db', check_same_thread=False)
 cursor = base.cursor()
 cursor.execute("""CREATE TABLE IF NOT EXISTS users(
